@@ -1,0 +1,14 @@
+# create virtual environment for fastapi
+  virtualenv venv
+
+# install all requirements
+  pip install fastapi uvicorn pydantil sqlalchemy pymysql
+
+# create database file that contains all the database configurations
+  database.py
+
+# create models file that contains all the database models and sqlalchemy ORM can be used to create tables in the database
+  models.py
+
+# create a main file that contains all the routes and the main function that runs the server
+  main.py
